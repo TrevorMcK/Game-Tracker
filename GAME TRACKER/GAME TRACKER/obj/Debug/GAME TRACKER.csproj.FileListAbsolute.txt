@@ -1,0 +1,15 @@
+C:\Users\zir12\OneDrive\Programs\Personal\CSharpe\GAME TRACKER\GAME TRACKER\obj\Debug\GAME TRACKER.csproj.AssemblyReference.cache
+C:\Users\zir12\OneDrive\Programs\Personal\CSharpe\GAME TRACKER\GAME TRACKER\obj\Debug\MainWindow.g.cs
+C:\Users\zir12\OneDrive\Programs\Personal\CSharpe\GAME TRACKER\GAME TRACKER\obj\Debug\App.g.cs
+C:\Users\zir12\OneDrive\Programs\Personal\CSharpe\GAME TRACKER\GAME TRACKER\obj\Debug\GAME TRACKER_MarkupCompile.cache
+C:\Users\zir12\OneDrive\Programs\Personal\CSharpe\GAME TRACKER\GAME TRACKER\obj\Debug\GAME TRACKER_MarkupCompile.lref
+C:\Users\zir12\OneDrive\Programs\Personal\CSharpe\GAME TRACKER\GAME TRACKER\bin\Debug\GAME TRACKER.exe.config
+C:\Users\zir12\OneDrive\Programs\Personal\CSharpe\GAME TRACKER\GAME TRACKER\bin\Debug\GAME TRACKER.exe
+C:\Users\zir12\OneDrive\Programs\Personal\CSharpe\GAME TRACKER\GAME TRACKER\bin\Debug\GAME TRACKER.pdb
+C:\Users\zir12\OneDrive\Programs\Personal\CSharpe\GAME TRACKER\GAME TRACKER\obj\Debug\MainWindow.baml
+C:\Users\zir12\OneDrive\Programs\Personal\CSharpe\GAME TRACKER\GAME TRACKER\obj\Debug\GAME TRACKER.g.resources
+C:\Users\zir12\OneDrive\Programs\Personal\CSharpe\GAME TRACKER\GAME TRACKER\obj\Debug\GAME_TRACKER.Properties.Resources.resources
+C:\Users\zir12\OneDrive\Programs\Personal\CSharpe\GAME TRACKER\GAME TRACKER\obj\Debug\GAME TRACKER.csproj.GenerateResource.cache
+C:\Users\zir12\OneDrive\Programs\Personal\CSharpe\GAME TRACKER\GAME TRACKER\obj\Debug\GAME TRACKER.csproj.CoreCompileInputs.cache
+C:\Users\zir12\OneDrive\Programs\Personal\CSharpe\GAME TRACKER\GAME TRACKER\obj\Debug\GAME TRACKER.exe
+C:\Users\zir12\OneDrive\Programs\Personal\CSharpe\GAME TRACKER\GAME TRACKER\obj\Debug\GAME TRACKER.pdb
