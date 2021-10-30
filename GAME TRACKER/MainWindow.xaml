@@ -1,0 +1,65 @@
+﻿<Window x:Class="GAME_TRACKER.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GAME_TRACKER"
+        mc:Ignorable="d"
+        Title="Game Tracker" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="3.5*"/>
+            <RowDefinition/>
+            <RowDefinition Height="3.5*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <!--<Grid Grid.Row="1" Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Battery" Grid.Row="0" Grid.Column="0"/>
+            <Label Content="Meters Left" Grid.Row="1" Grid.Column="0"/>
+
+            <Label x:Name="uxLblBattery" Content="" Grid.Row="0" Grid.Column="1"/>
+            <Label x:Name="uxLblMeters" Content="" Grid.Row="1" Grid.Column="1"/>
+        </Grid>-->
+
+        <Grid Grid.Row="5" Grid.ColumnSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <TextBox x:Name="uxGameName" Grid.Column="0"></TextBox>
+            <TextBox x:Name="uxSystemPlayed" Grid.Column="1"></TextBox>
+            <TextBox x:Name="uxYearPlayed" Grid.Column="2"></TextBox>
+            <Button x:Name="uxAddGame" Grid.Column="3" Content="Add" Click="UxAddGame_Click"></Button>
+        </Grid>
+
+        <Label Content="Current Games" Grid.Row="0" Grid.Column="0" VerticalContentAlignment="Bottom"/>
+        <!--<Label Content="Cart Status" Grid.Row="0" Grid.Column="2" VerticalContentAlignment="Bottom"/>-->
+        <DataGrid x:Name="uxGamesGrid" Grid.Row="1" Grid.ColumnSpan="3" ColumnWidth="*" SelectionChanged="UxGrid_SelectionChanged" AutoGenerateColumns="False" Grid.RowSpan="3">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Game Name" Binding="{Binding name}"></DataGridTextColumn>
+                <DataGridTextColumn Header="System Played On" Binding="{Binding system}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Year Played" Binding="{Binding year}"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+
+    </Grid>
+</Window>
